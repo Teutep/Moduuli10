@@ -31,8 +31,8 @@ class Elevator:
         print(f"Tämänhetkinen kerroksesi on {self.currentloc}")
         return
 
-call = Elevator(0, 10)
-call.use_elevator(1)
-call.use_elevator(7)
-call.use_elevator(5)
-call.use_elevator(9)
+h = Elevator(0, 10)
+h.use_elevator(1)
+h.use_elevator(7)
+h.use_elevator(5)
+h.use_elevator(9)
